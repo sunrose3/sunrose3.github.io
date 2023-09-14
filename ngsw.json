@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1694691552772,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.0a8364f4260cc9dd.js",
+        "/manifest.webmanifest",
+        "/polyfills.5be8af345ffbe2f6.js",
+        "/runtime.de0da83d116d6440.js",
+        "/styles.b93a149b8ab176c4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-16x16.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-32x32.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons/mstile-150x150.png",
+        "/assets/icons/safari-pinned-tab.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "842bdceef25f5740f200de22180141847b2f0b80",
+    "/assets/icons/icon-144x144.png": "58b1834a019ac1717860017605a8aea507d357b5",
+    "/assets/icons/icon-152x152.png": "40fbef2fb5ccb2b372fc999b8b85ce140d0941cd",
+    "/assets/icons/icon-16x16.png": "f29dd83494bacad509ab9209d0fe3bac590372f3",
+    "/assets/icons/icon-192x192.png": "87928464dba1d7c788c9f6de956f99947470a359",
+    "/assets/icons/icon-32x32.png": "f2e0a73c6d735cc1e3c2cb1ffa964b684326cdbf",
+    "/assets/icons/icon-384x384.png": "58fd074eca66c6223ad217c1c0c7d06880a08e53",
+    "/assets/icons/icon-512x512.png": "751e451c3df49031d4e76c4560eff56f1716a002",
+    "/assets/icons/icon-72x72.png": "58d6745b5ff885601c61c11e1775fc7b5f045e7f",
+    "/assets/icons/icon-96x96.png": "6ca29999af98f0cf163cde2ee82af440f8c7bac6",
+    "/assets/icons/mstile-150x150.png": "97db6b63f6214367fa49e266add632bc8af3f5a4",
+    "/assets/icons/safari-pinned-tab.svg": "03d482e5aa20cb76842fcf984d28cd65c0423987",
+    "/favicon.ico": "a2eaf72bbac9bea51761890d3665734f0bc390f4",
+    "/index.html": "1d97f3f938f4dd6960018ff3ae6772436c62e727",
+    "/main.0a8364f4260cc9dd.js": "eed609f48c57a1604e8d355368ed38cd5fb3d7dc",
+    "/manifest.webmanifest": "51807fd77aff1ac5c3b6bb2c06722f4e20516182",
+    "/polyfills.5be8af345ffbe2f6.js": "4c0b621753282f1b3d0739d83887221940461765",
+    "/runtime.de0da83d116d6440.js": "27c8a1737e4b547f3a115c2e39086664017d4505",
+    "/styles.b93a149b8ab176c4.css": "69bb9fe8ffc89c760068fe5f39ab6706ca9addca"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
